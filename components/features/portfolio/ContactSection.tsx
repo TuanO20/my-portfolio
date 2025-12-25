@@ -49,8 +49,8 @@ export const ContactSection = () => {
                         </NeoButton>
 
                         <div className="flex gap-4 justify-center">
-                            <NeoSocialButton href={SOCIALS[0].link} icon={Linkedin} />
-                            <NeoSocialButton href={SOCIALS[1].link} icon={Github} />
+                            <NeoSocialButton href={SOCIALS[1].link} icon={Linkedin} />
+                            <NeoSocialButton href={SOCIALS[0].link} icon={Github} />
                         </div>
                     </div>
                 </Card>
