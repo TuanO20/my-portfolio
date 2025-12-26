@@ -13,7 +13,7 @@ const SectionTitle = ({ title, subtitle, icon: Icon, color = "bg-yellow-300" }: 
 }) => (
     <div className="mb-12 relative inline-block">
         <div className={cn(
-            "absolute -top-6 -left-2 md:-left-6 w-12 h-12 border-3 border-black rounded-full flex items-center justify-center z-10 transform -rotate-12",
+            "absolute -top-9 -left-2 md:-left-6 w-12 h-12 border-3 border-black rounded-full flex items-center justify-center z-10 transform -rotate-12",
             color
         )}>
             {Icon && <Icon className="w-6 h-6 text-black" />}

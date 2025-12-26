@@ -12,7 +12,7 @@ export const HeroSection = () => {
             <div className="lg:col-span-7 space-y-8 relative">
 
                 {/* Decorative 'Sticker' */}
-                <div className="absolute -top-8 right-0 md:right-12 transform rotate-6 z-20 scale-75 md:scale-100 origin-right">
+                <div className="absolute -top-9 right-0 md:right-12 transform rotate-6 z-20 scale-75 md:scale-100 origin-right">
                     <div className="bg-yellow-300 text-black font-hand font-bold text-2xl px-6 py-2 border-3 border-black rounded-full neo-shadow whitespace-nowrap">
                         Hello there! I&apos;m Tommy 👋
                     </div>
